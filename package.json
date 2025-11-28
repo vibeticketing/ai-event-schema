@@ -1,0 +1,46 @@
+{
+  "name": "ai-event-schema",
+  "version": "1.0.0",
+  "description": "The open standard for AI-generated event data. Parse natural language into structured event objects using OpenAI.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "events",
+    "schema",
+    "openai",
+    "nlp",
+    "event-planning",
+    "event-management",
+    "natural-language",
+    "typescript"
+  ],
+  "author": "vibeticketing",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vibeticketing/ai-event-schema.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vibeticketing/ai-event-schema/issues"
+  },
+  "homepage": "https://github.com/vibeticketing/ai-event-schema#readme",
+  "dependencies": {
+    "openai": "^4.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
